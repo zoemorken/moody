@@ -1,0 +1,85 @@
+body {
+    background-color: #181818;
+}
+
+#login, #loggedin {
+  display: none;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 500px;
+}
+ 
+.flex-container {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+}
+ 
+.container1 {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+}
+ 
+.hidden {
+    display: none;
+}
+ 
+#login {
+    margin: auto;
+    padding-top: 15em;
+}
+ 
+#login h1 {
+padding: 3em, 0;
+}
+ 
+p {
+    padding: 3em;
+}
+ 
+aside {
+    padding-right: 3em;
+    padding-left: 3em;
+    float: left;
+}
+ 
+a {
+    font-weight: bold;
+    font-size: 5em;
+    cursor: pointer;
+}
+ 
+a:hover, a:visited, a:focus {
+    color: white;
+    text-decoration: none;
+}
+ 
+#playlist {
+    padding-left: 8em;
+}
+ 
+#playlist h2 {
+    padding-bottom: 3em;
+}
+ 
+#playlist ul {
+    list-style-type: none;
+}
+ 
+#playlist ul li {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 300px;
+}
+ 
+#playlist ul img {
+    border-radius: 0.5em;
+}
